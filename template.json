@@ -1,0 +1,11 @@
+{
+  "variablesOrder": ["aws-region", "name", "description", "version", "author", "email"],
+  "variables": {
+    "aws-region": {
+      "default": "us-west-1"
+    },
+    "version": {
+      "default": "1.0.0"
+    }
+  }
+}
