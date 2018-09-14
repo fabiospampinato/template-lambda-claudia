@@ -7,7 +7,7 @@ A template for starting a new lambda quickly.
 Install the template locally with:
 
 ```
-$ template install fabiospampinato/template-lambda-claudia lambda-claudia
+template install fabiospampinato/template-lambda-claudia lambda-claudia
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ template install fabiospampinato/template-lambda-claudia lambda-claudia
 Create a new lambda with:
 
 ```
-$ template create lambda-claudia my-lambda
+template create lambda-claudia my-lambda
 ```
 
 ## License
