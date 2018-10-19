@@ -35,4 +35,5 @@ Thumbs.db
 # Other paths to ignore
 dist
 node_modules
+package-lock.json
 typings
