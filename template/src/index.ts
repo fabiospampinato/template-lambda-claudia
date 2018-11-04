@@ -10,5 +10,4 @@ function lambda ( event, ctx ) {
 
 /* EXPORT */
 
-export default lambda;
-export {lambda as handler};
+export = Object.assign ( lambda, { default: lambda, handler: lambda } );
