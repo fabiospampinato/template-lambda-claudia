@@ -14,7 +14,7 @@
     "clean": "rimraf dist",
     "compile": "tsc --skipLibCheck",
     "compile:watch": "tsc --skipLibCheck --watch",
-    "prepublish": "npm run clean && npm run compile",
+    "prepublishOnly": "npm run clean && npm run compile",
     "create": "claudia create --handler dist/index.handler --region {{aws-region}} --set-env-from-json environment.json",
     "destroy": "claudia destroy",
     "update": "claudia update --set-env-from-json environment.json",
