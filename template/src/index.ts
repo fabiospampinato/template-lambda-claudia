@@ -10,4 +10,6 @@ function lambda ( event, ctx ) {
 
 /* EXPORT */
 
-export = Object.assign ( lambda, { default: lambda, handler: lambda } );
+const exp = Object.assign ( lambda, { handler: lambda } );
+
+export default exp;
