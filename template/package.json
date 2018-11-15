@@ -21,9 +21,10 @@
     "schedule": "claudia add-scheduled-event --name schedule --event event.json --schedule \"rate(1 day)\"",
     "check": "claudia test-lambda"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^8.0.57"
+  },
   "devDependencies": {
-    "@types/node": "^8.0.57",
     "rimraf": "^2.6.2",
     "typescript": "^3.0.3",
     "typescript-transform-export-interop": "^1.0.1"
